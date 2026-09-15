@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<XMLDB PATH="mod/privatenotes/db" VERSION="2026091400" COMMENT="XMLDB file for mod_privatenotes"
+<XMLDB PATH="mod/privatenotes/db" VERSION="20260914" COMMENT="XMLDB file for mod_privatenotes"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="../../../lib/xmldb/xmldb.xsd">
   <TABLES>
