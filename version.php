@@ -24,8 +24,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version = 2026091500;
-$plugin->release = "1.1.1";
+$plugin->version = 2026091501;
+$plugin->release = "1.1.2";
 $plugin->component = "mod_privatenotes";
 $plugin->requires = 2022112800;
 $plugin->maturity = MATURITY_STABLE;
