@@ -56,7 +56,6 @@ $string['privacy:metadata:privatenotes_content:timecreated'] = 'The time when th
 $string['privacy:metadata:privatenotes_content:timemodified'] = 'The time when the private note was last modified.';
 $string['privacy:metadata:privatenotes_content:userid'] = 'The user who owns the private note.';
 $string['privacybanner'] = 'These notes are private to your account. Other students cannot see them, and teachers cannot see the text you write here.';
-$string['privacysettings'] = 'Privacy and teacher metadata';
 $string['privatenotes:addinstance'] = 'Add a new private notes activity';
 $string['privatenotes:view'] = 'View a private notes activity';
 $string['privatenotes:viewmetadata'] = 'View allowed private note metadata';

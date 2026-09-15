@@ -28,7 +28,7 @@ $id = required_param("id", PARAM_INT);
 $course = get_course($id);
 require_course_login($course);
 
-$PAGE->set_url("/mod/privatenotes/index.php", ["id" => $course->id]);
+$PAGE->set_url("/mod/privatenotes/", ["id" => $course->id]);
 $PAGE->set_title(get_string("modulenameplural", "mod_privatenotes"));
 $PAGE->set_heading(format_string($course->fullname));
 

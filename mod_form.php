@@ -22,6 +22,8 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
+use mod_privatenotes\note_manager;
+
 defined('MOODLE_INTERNAL') || die();
 
 require_once($CFG->dirroot . "/course/moodleform_mod.php");
@@ -44,14 +46,13 @@ class mod_privatenotes_mod_form extends moodleform_mod {
 
         $this->standard_intro_elements();
 
-        $mform->addElement("header", "privacysettings", get_string("privacysettings", "mod_privatenotes"));
         $options = [
-            \mod_privatenotes\note_manager::METADATA_NONE => get_string("metadata:none", "mod_privatenotes"),
-            \mod_privatenotes\note_manager::METADATA_AGGREGATE => get_string("metadata:aggregate", "mod_privatenotes"),
-            \mod_privatenotes\note_manager::METADATA_INDIVIDUAL => get_string("metadata:individual", "mod_privatenotes"),
+            note_manager::METADATA_NONE => get_string("metadata:none", "mod_privatenotes"),
+            note_manager::METADATA_AGGREGATE => get_string("metadata:aggregate", "mod_privatenotes"),
+            note_manager::METADATA_INDIVIDUAL => get_string("metadata:individual", "mod_privatenotes"),
         ];
         $mform->addElement("select", "metadatavisibility", get_string("metadatavisibility", "mod_privatenotes"), $options);
-        $mform->setDefault("metadatavisibility", \mod_privatenotes\note_manager::METADATA_NONE);
+        $mform->setDefault("metadatavisibility", note_manager::METADATA_NONE);
         $mform->addHelpButton("metadatavisibility", "metadatavisibility", "mod_privatenotes");
 
         $this->standard_coursemodule_elements();

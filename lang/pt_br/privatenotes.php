@@ -56,7 +56,6 @@ $string['privacy:metadata:privatenotes_content:timecreated'] = 'Data e hora em q
 $string['privacy:metadata:privatenotes_content:timemodified'] = 'Data e hora da última alteração da anotação privada.';
 $string['privacy:metadata:privatenotes_content:userid'] = 'Usuário proprietário da anotação privada.';
 $string['privacybanner'] = 'Estas anotações pertencem somente à sua conta. Outros alunos não podem vê-las e o professor não pode ver o texto que você escrever aqui.';
-$string['privacysettings'] = 'Privacidade e metadados para o professor';
 $string['privatenotes:addinstance'] = 'Adicionar uma nova atividade de anotações privadas';
 $string['privatenotes:view'] = 'Visualizar uma atividade de anotações privadas';
 $string['privatenotes:viewmetadata'] = 'Visualizar os metadados permitidos das anotações privadas';
