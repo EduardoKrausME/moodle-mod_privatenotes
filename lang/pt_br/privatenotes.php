@@ -22,7 +22,7 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-defined('MOODLE_INTERNAL') || die();
+defined('MOODLE_INTERNAL') || die;
 
 $string['backupprivacy'] = 'O conteúdo das anotações privadas é intencionalmente excluído dos backups normais do curso.';
 $string['created'] = 'Criada em';
